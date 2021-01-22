@@ -1,24 +1,31 @@
-header {
-    height: 135px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-end;
-    margin-top: 20px;
-}
 
 body {
     font-family: arial,sans-serif;
 }
 
 .hdr {
-    margin-right: 30px;
+    height: 135px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    padding-inline: 10px;
     font-weight: 0;
     font-size: 13px;
     font-weight: 400;
     line-height: 24px;
     text-decoration-thickness: auto ;
+    display: inline-block;
 }
 
 #logo {
@@ -26,6 +33,8 @@ body {
     flex-direction: column;
     align-self: flex-start;
     height: 100%;
+    width: 100%;
+    padding-top: 20px;
 }
 
 #img {
@@ -33,4 +42,18 @@ body {
     display:flex;
     align-self: center;
     height: 100%;
+
+}
+
+#input {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 50%;
+    margin-top: 40px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    font-size: 16px;
+    padding: 12px;
 }
