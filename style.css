@@ -19,7 +19,7 @@ a {
     color: black;
 }
 
-li {
+.head {
     padding-inline: 10px;
     font-weight: 0;
     font-size: 13px;
@@ -51,7 +51,7 @@ li {
     display: flex;
     flex-direction: row;
     align-self: center;
-    width: 45%;
+    width: 35%;
     margin-top: 40px;
     border-radius: 25px;
     border: none;
@@ -61,14 +61,27 @@ li {
     outline: none;
 }
 
-footer {
+#foot-bar {
     display: flex;
     position: absolute;
+    box-sizing: border-box;
     bottom: 0;
     width: 100%;
-    height: 2rem;
-    flex-direction: column;
-    padding-bottom: 20px;
+    padding: 10px 20px;
     background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    justify-content: space-around;
+    margin-bottom: 0px;
 }
+
+.left {
+    list-style: none;
+    margin-right: auto;
+}
+
+.right {
+    list-style: none;
+    margin-left: auto;
+}
+    push privacy and other to right
 
